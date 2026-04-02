@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
 <!-- add required and recommended <meta> tags -->
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="Sophia Bergler">
+ <meta name="description" content="A gym called Limitless Fitness that specializes in personal training">
+ <meta name="robots" content="index, follow">
+
+ <meta property="og:title" content="Limitless Fitness">
+ <meta property="og:type" content="website">
+ <meta property="og:image" content="images/facility.jpg">
+ <meta property="og:url" content="/limitlessfitnessgym/index.html">
+
+ <meta name="twitter:card" content="limitless_fitness_card">
+ <meta name="twitter:site" content="@LimitlessFitness">
+ <meta name="twitter:creator" content="@SophiaBergler">
+ <meta name="twitter:title" content="Limitless Fitness">
+ <meta name="twitter:description" content="A gym called Limitless Fitness that specializes in personal training">
+ <meta name="twitter:image" content="images/facility.jpg">
 
 </head>
 <body>
 <!-- add a skip link that skips to the main content -->
+ <a href="main-cont">Skip to main</a>
 <!-- add correct heading levels -->
   <header>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF" stroke-linecap="round" stroke-linejoin="round" width="75" height="75" stroke-width="1.5">
@@ -37,7 +55,7 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
-  <main>
+  <main id="main-cont"> <!--adding ID for skip link-->
     <section>
       About Us
       <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to inspire and support you at every stage of your journey. Whether you're a beginner or a seasoned athlete, our expert trainers and diverse classes provide the perfect environment to achieve your personal best.</p>
@@ -90,16 +108,18 @@
         Join Limitless Fitness Today!
         <p>Fill out the form below to kickstart your fitness journey:</p>
 <!--add accessibility to the form-->
-        Full Name
-        Email Address
-        Phone Number
-        Membership Type
-          Select a Membership Option
-          Monthly Membership
-          Annual Membership
-          Family & Group Plans
-        Tell us about your fitness goals:
-        Submit
+        <form action=""https://wp.zybooks.com/form-viewer.php"" method="post">
+          Full Name
+          Email Address
+          Phone Number
+          Membership Type
+            Select a Membership Option
+            Monthly Membership
+            Annual Membership
+            Family & Group Plans
+          Tell us about your fitness goals:
+          Submit
+        </form>
       </section>
     </section>
   </main>
